@@ -1,3 +1,11 @@
+#steps:
+#step1:Import Tkinter
+#step2:GUI Interaction
+#step3:Adding Inputs
+#step4:main loop
+
+
+
 import tkinter as tk
 
 
