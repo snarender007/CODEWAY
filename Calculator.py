@@ -6,7 +6,7 @@
 
 
 
-import tkinter as tk
+import tkinter as tk   #imported tkinter
 
 
 # Function to perform arithmetic operations
@@ -35,11 +35,11 @@ def calculate():
         entry_result.insert(tk.END, "Invalid input")
 
 
-# Create main application window
+# GUI interaction
 app = tk.Tk()
 app.title("Simple Calculator")
 
-# Create input fields
+# adding input fields
 entry_num1 = tk.Entry(app, width=10)
 entry_num1.grid(row=0, column=0, padx=5, pady=5)
 
@@ -60,5 +60,5 @@ button_calculate.grid(row=1, column=0, columnspan=3, padx=5, pady=5, sticky="WE"
 entry_result = tk.Entry(app, width=30)
 entry_result.grid(row=2, column=0, columnspan=3, padx=5, pady=5)
 
-# Run the application
+# mainloop
 app.mainloop()
